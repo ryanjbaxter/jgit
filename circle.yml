@@ -4,3 +4,6 @@ general:
 machine:
   java:
     version: openjdk8
+test:
+  pre:
+    - rm .gitconfig
