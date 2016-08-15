@@ -52,7 +52,7 @@ public class DemoApplication implements CommandLineRunner{
 	}
 }
 
-@FeignClient(name = "example", url = "example.com")
+@FeignClient(name = "example", url = "google.com")
 @RequestMapping("/")
 interface RestClient {
 	@RequestMapping(method = RequestMethod.GET)
