@@ -24,7 +24,7 @@ import static org.junit.Assert.assertTrue;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = TestApplication.class)
-@WebIntegrationTest(randomPort = true, value = "myexample.ribbon.listOfServers:www.google.com:80")
+@WebIntegrationTest(randomPort = true, value = "myexample.ribbon.listOfServers:www.example.com:80")
 @DirtiesContext
 public class FeignClientWithServerListApplicationTests {
 
@@ -36,6 +36,7 @@ public class FeignClientWithServerListApplicationTests {
     @Test
     public void clientConnects() {
         String response = client.hello();
+        System.out.println(client instanceof FallbackRestClient);
         System.out.println("client response:" + response);
         System.out.println("client response:" + client.hello());
         assertTrue(response.contains("<html"));
