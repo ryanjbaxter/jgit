@@ -39,8 +39,8 @@
       <file leaf-file-name="FeignClientWithServerListApplicationTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="26" column="97" selection-start-line="26" selection-start-column="97" selection-end-line="26" selection-end-column="97" />
+            <state relative-caret-position="390">
+              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1837#1838#0" expanded="true" />
@@ -752,7 +752,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471266659759</updated>
-      <workItem from="1471266664085" duration="5810000" />
+      <workItem from="1471266664085" duration="6688000" />
     </task>
     <servers />
   </component>
@@ -789,7 +789,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5810000" />
+    <option name="totallyTimeSpent" value="6688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2654" y="252" width="1440" height="877" extended-state="0" />
@@ -872,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="26" column="97" selection-start-line="26" selection-start-column="97" selection-end-line="26" selection-end-column="97" />
+        <state relative-caret-position="390">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1837#1838#0" expanded="true" />
