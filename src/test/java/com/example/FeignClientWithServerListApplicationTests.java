@@ -35,8 +35,9 @@ public class FeignClientWithServerListApplicationTests {
 
     @Test
     public void clientConnects() {
-        System.out.println("client response:" + client.hello());
-        assertTrue(client.hello().contains("<html"));
+        String response = client.hello();
+        System.out.println("client response:" + response);
+        assertTrue(response.contains("<html"));
 
 
     }
