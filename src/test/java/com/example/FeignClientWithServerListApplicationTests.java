@@ -24,7 +24,7 @@ import static org.junit.Assert.assertTrue;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = TestApplication.class)
-@WebIntegrationTest(randomPort = true, value = {"myexample.ribbon.listOfServers:www.example.com:80", "myexample.ribbon.ReadTimeout=60000", "myexample.ribbon.ConnectTimeout=60000"})
+@WebIntegrationTest(randomPort = true, value = {"myexample.ribbon.listOfServers:www.example.com:80", "myexample.ribbon.ReadTimeout=60000", "myexample.ribbon.ConnectTimeout=60000", "hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=60000"})
 @DirtiesContext
 public class FeignClientWithServerListApplicationTests {
 
