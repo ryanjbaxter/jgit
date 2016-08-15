@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5a27bd-d9db-404f-8f8f-a97124234bd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java" />
     </list>
     <ignored path="demo.iws" />
@@ -37,19 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeignClientWithServerListApplicationTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FeignClientWithServerListApplicationTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+            <state relative-caret-position="345">
+              <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1837#1838#0" expanded="true" />
+                <element signature="e#1892#1893#0" expanded="true" />
+                <element signature="e#2213#2214#0" expanded="true" />
+                <element signature="e#2254#2255#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -91,8 +94,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -749,23 +752,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471266659759</updated>
-      <workItem from="1471266664085" duration="3427000" />
+      <workItem from="1471266664085" duration="4208000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DemoApplicationTests - 2016.08.15 at 09h 13m 30s.xml">
-      <configuration name="DemoApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests - 2016.08.15 at 09h 21m 03s.xml">
-      <configuration name="DemoApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests - 2016.08.15 at 09h 46m 37s.xml">
-      <configuration name="DemoApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FeignClientWithServerListApplicationTests - 2016.08.15 at 09h 46m 52s.xml">
-      <configuration name="FeignClientWithServerListApplicationTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FeignClientWithServerListApplicationTests - 2016.08.15 at 09h 47m 28s.xml">
       <configuration name="FeignClientWithServerListApplicationTests" configurationId="JUnit" />
     </history-entry>
@@ -784,13 +775,25 @@
     <history-entry file="FeignClientWithServerListApplicationTests - 2016.08.15 at 10h 16m 42s.xml">
       <configuration name="FeignClientWithServerListApplicationTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FeignClientWithServerListApplicationTests - 2016.08.15 at 10h 30m 10s.xml">
+      <configuration name="FeignClientWithServerListApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FeignClientWithServerListApplicationTests - 2016.08.15 at 10h 31m 23s.xml">
+      <configuration name="FeignClientWithServerListApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FeignClientWithServerListApplicationTests - 2016.08.15 at 10h 32m 16s.xml">
+      <configuration name="FeignClientWithServerListApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FeignClientWithServerListApplicationTests - 2016.08.15 at 10h 33m 21s.xml">
+      <configuration name="FeignClientWithServerListApplicationTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3427000" />
+    <option name="totallyTimeSpent" value="4208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2654" y="252" width="1440" height="877" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -859,21 +862,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#2213#2214#0" expanded="true" />
+            <element signature="e#2254#2255#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
