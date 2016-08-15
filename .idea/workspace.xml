@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5a27bd-d9db-404f-8f8f-a97124234bd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/RestClient.class" afterPath="$PROJECT_DIR$/target/classes/com/example/RestClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/FeignClientWithServerListApplicationTests$FallbackRestClient.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/FeignClientWithServerListApplicationTests$FallbackRestClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/FeignClientWithServerListApplicationTests$TestApplication.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/FeignClientWithServerListApplicationTests$TestApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/FeignClientWithServerListApplicationTests.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/FeignClientWithServerListApplicationTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java" />
     </list>
     <ignored path="demo.iws" />
@@ -45,14 +39,14 @@
       <file leaf-file-name="FeignClientWithServerListApplicationTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="159">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1874#1875#0" expanded="true" />
-                <element signature="e#1929#1930#0" expanded="true" />
-                <element signature="e#2250#2251#0" expanded="true" />
-                <element signature="e#2291#2292#0" expanded="true" />
+                <element signature="e#2019#2020#0" expanded="true" />
+                <element signature="e#2074#2075#0" expanded="true" />
+                <element signature="e#2398#2399#0" expanded="true" />
+                <element signature="e#2439#2440#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,8 +104,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -772,7 +766,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471266659759</updated>
-      <workItem from="1471266664085" duration="10049000" />
+      <workItem from="1471266664085" duration="10483000" />
     </task>
     <servers />
   </component>
@@ -809,7 +803,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10049000" />
+    <option name="totallyTimeSpent" value="10483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2654" y="252" width="1890" height="1042" extended-state="0" />
@@ -900,14 +894,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FeignClientWithServerListApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="159">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
           </folding>
         </state>
       </provider>
