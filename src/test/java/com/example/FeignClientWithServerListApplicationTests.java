@@ -24,7 +24,7 @@ import com.example.FeignClientWithServerListApplicationTests.TestApplication;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = TestApplication.class)
-@WebIntegrationTest(randomPort = true, value = "myexample.ribbon.listOfServers:example.com")
+@WebIntegrationTest(randomPort = true, value = "myexample.ribbon.listOfServers:www.example.com")
 @DirtiesContext
 public class FeignClientWithServerListApplicationTests {
 
