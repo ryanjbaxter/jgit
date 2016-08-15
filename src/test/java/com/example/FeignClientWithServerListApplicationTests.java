@@ -1,6 +1,7 @@
 package com.example;
 
 import com.example.FeignClientWithServerListApplicationTests.TestApplication;
+import feign.Request;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -55,6 +57,14 @@ public class FeignClientWithServerListApplicationTests {
         @Bean
         public FallbackRestClient getFallback() {
             return new FallbackRestClient();
+        }
+
+        @Bean
+        Request.Options requestOptions(ConfigurableEnvironment env){
+            int ribbonReadTimeout = env.getProperty("ribbon.ReadTimeout", int.class, 60000);
+            int ribbonConnectionTimeout = env.getProperty("ribbon.ConnectTimeout", int.class, 60000);
+
+            return new Request.Options(ribbonConnectionTimeout, ribbonReadTimeout);
         }
     }
 
